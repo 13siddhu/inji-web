@@ -35,7 +35,7 @@ export const Login: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center w-[100%] max-w-[400px] mx-auto rounded-2xl">
         <div data-testid="login-logo" className="flex justify-center items-center">
-          <img src={require("../../assets/Logomark.png")} alt="Inji Web Logo" />
+          <img src={require("../../assets/lucidLogo.png")} alt="Inji Web Logo" />
         </div>
 
         <div data-testid="login-title" className="text-[36px] leading-[44px] tracking-[-0.02em] text-black font-bold text-center py-4">

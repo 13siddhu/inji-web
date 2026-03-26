@@ -11,7 +11,7 @@ export const HomeBanner: React.FC = () => {
       <div
         data-testid="HomeBanner-Content"
         className="mx-auto sm:w-[86.9vw] max-w-[1400px] sm:rounded-xl sm:mt-6 sm:pt-24 pt-16 sm:pb-12 
-          px-3 flex flex-col sm:flex-row sm:gap-10 justify-between items-center bg-home-banner bg-cover bg-center"
+          px-3 flex flex-col sm:flex-row sm:gap-10 justify-between items-center bg-[#65CBE4]"
       >
         {/* Left side: Text Component*/}
         <div className="sm:px-10 flex flex-col sm:w-1/2 items-start text-center sm:text-left">

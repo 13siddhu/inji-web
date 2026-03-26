@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({headerRef}) => {
                 className="container mx-auto flex justify-between items-center px-4"
             >
                 <div
-                    data-testid="Header-InjiWeb-Logo-Container"
+                    data-testid="Header-LucidLedger-Logo-Container"
                     className={`flex flex-row ${
                         isRTL(language) ? 'space-x-reverse' : 'space-x-9'
                     } justify-center items-center`}
@@ -53,11 +53,11 @@ export const Header: React.FC<HeaderProps> = ({headerRef}) => {
                         onKeyUp={() => navigate(ROUTES.ROOT)}
                     >
                         <img
-                            src={require('../../assets/InjiWebLogo.png')}
+                            src={require('../../assets/lucidledger_Logo.png')}
                             className={`h-6 w-36 flex-shrink-0 sm:h-8 sm:w-48 cursor-pointer
                                 ${isRTL(language) ? 'mr-4' : ''}`}
-                            data-testid="Header-InjiWeb-Logo"
-                            alt="Inji Web Logo"
+                            data-testid="Header-Luicd Ledger logo"
+                            alt="LucidLedger logo"
                         />
                     </div>
                 </div>

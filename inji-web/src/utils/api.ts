@@ -24,7 +24,7 @@ export class api {
     static authorizationRedirectionUrl = window.location.origin + ROUTES.REDIRECT;
 
     static fetchIssuers: ApiRequest = {
-        url: () => api.mimotoHost + "/issuers",
+        url: () => api.mimotoHost + "/v1/mimoto/issuers",
         methodType: MethodType.GET,
         headers: () => {
             return {
@@ -33,7 +33,7 @@ export class api {
         }
     };
     static fetchSpecificIssuer: ApiRequest = {
-        url: (issuerId: string) => api.mimotoHost + `/issuers/${issuerId}`,
+        url: (issuerId: string) => api.mimotoHost + `/v1/mimoto/issuers/${issuerId}`,
         methodType: MethodType.GET,
         headers: () => {
             return {
@@ -43,7 +43,7 @@ export class api {
     };
     static fetchIssuersConfiguration: ApiRequest = {
         url: (issuerId: string) =>
-            api.mimotoHost + `/issuers/${issuerId}/configuration`,
+            api.mimotoHost + `/v1/mimoto/issuers/${issuerId}/configuration`,
         methodType: MethodType.GET,
         headers: () => {
             return {
@@ -84,7 +84,7 @@ export class api {
     };
     // method to fetch user profile
     static fetchUserProfile: ApiRequest = {
-        url: () => api.mimotoHost + "/users/me",
+        url: () => api.mimotoHost + "v1/mimoto/users/me",
         methodType: MethodType.GET,
         headers: () => {
             return {

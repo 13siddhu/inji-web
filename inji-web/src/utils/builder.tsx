@@ -17,7 +17,7 @@ export const renderContent = (content: string | { __html: string }) => {
 };
 
 export const renderGradientText = (title:string) => {
-    return <span className="inline-block bg-gradient-to-r from-iw-primary to-iw-secondary bg-clip-text text-md font-bold text-transparent">{title}</span>
+    return <span className="inline-block bg-[#65CBE4] bg-clip-text text-md font-bold text-transparent">{title}</span>
 }
 
 export const renderGradientTextNormal = (title:string) => {

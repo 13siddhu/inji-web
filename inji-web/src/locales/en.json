@@ -7,8 +7,8 @@
       "logout": "Logout"
     },
     "Footer": {
-      "product": "A MOSIP Product",
-      "copyRight": "© 2024 MOSIP. All rights reserved."
+      "product": "Lucid Ledger ",
+      "copyRight": "© 2024 Lucid Ledger. All rights reserved."
     }
   },
   "HomePage": {
@@ -18,7 +18,7 @@
       "buttontext": "Get Started"
     },
     "Features": {
-      "heading": "Features of Inji Wallet",
+      "heading": "Features of Lucid Ledger Wallet",
       "description1": "Seamless and secure management of verifiable credentials",
       "description2": "for trusted digital interactions."
     },
@@ -53,7 +53,7 @@
     "FeatureItem5": {
       "heading": "Wider Access & Compatibility",
       "item1": "Available on your favourite browser",
-      "description1": "Inji Wallet works with Chrome, Safari, Firefox, and Edge.",
+      "description1": "Lucid Ledger Wallet works with Chrome, Safari, Firefox, and Edge.",
       "item2": "Always within reach",
       "description2": "Convenience meets accessibility wherever you are, ensuring your documents are always within reach."
     },
@@ -268,7 +268,7 @@
       "description1": "Verifiable credentials are digital documents that help users to share information like identity or qualifications to the service provider which can be instantly verified. They're issued by trusted entities and can be cryptographically verified for authenticity. These credentials streamline identity verification processes."
     },
     "item3": {
-      "title": "How can I download a credential in Inji Wallet?",
+      "title": "How can I download a credential in LucidLedger Wallet?",
       "description1": "Step 1: Search & choose an Issuer from the landing page and select a credential type.",
       "description2": "Step 2: In the authentication page, provide required details.",
       "description3": "Step 3: PDF format of the verifiable credential will be downloaded into the system."
@@ -293,7 +293,7 @@
       "description4": "In either case, please contact your technical team to address the issue."
     },
     "item8": {
-      "title": "What happens when I generate a Verifiable Credential (VC) in Inji Wallet's Web Interface?",
+      "title": "What happens when I generate a Verifiable Credential (VC) in LucidLedger Wallet's Web Interface?",
       "description1": "1. You select an issuer and the type of credential.",
       "description2": "2. Redirects to the issuer's login page for authentication.",
       "description3": "3. After login, the issuer provides the VC, stored securely as JSON using Durian. ",
@@ -305,15 +305,15 @@
       "description1": "The QR code in the PDF links to the secure VC storage URL, making it easy to scan and retrieve credentials without dense data."
     },
     "item10": {
-      "title": "How does Inji Wallet’s Web Interface ensure my VC is stored securely?",
+      "title": "How does LucidLedger Wallet's Web Interface ensure my VC is stored securely?",
       "description1": "Integrates with the Data Share service (Durian) from the MOSIP ID platform, storing the VC as a JSON object with access protected for only authorized verifiers."
     },
     "item11": {
-      "title": "How does the online sharing feature work with Inji Verify?",
+      "title": "How does the online sharing feature work with LucidLedger Verify?",
       "description1": "1. VC PDF contains a QR code.",
       "description2": "2. PDF can be printed or saved on a phone. ",
-      "description3": "3. Verifier (e.g., Inji Verify) scans the QR code. ",
-      "description4": "4. Inji Wallet authorizes and shares the VC with the verifier."
+      "description3": "3. Verifier (e.g., LucidLedger Verify) scans the QR code. ",
+      "description4": "4. LucidLedger Wallet authorizes and shares the VC with the verifier."
     },
     "item12": {
       "title": "Why embed a URL in the QR code instead of full VC data?",
@@ -321,49 +321,49 @@
     },
     "item13": {
       "title": "Can I share my VC both online and offline?",
-      "description1": "1. Online : Verifier can scan from a PDF or phone screen, and Inji Wallet authorizes and shares the VC. ",
+      "description1": "1. Online : Verifier can scan from a PDF or phone screen, and LucidLedger Wallet authorizes and shares the VC. ",
       "description2": "2. Offline : Printed PDF can be presented for scanning and VC retrieval."
     },
     "item14": {
-      "title": "How does Inji Wallet verify and authorize the verifier during online sharing?",
-      "description1": "Verifier credentials are checked from an internal list. If authorized, Inji Wallet with web interface sends the VC back to the verifier securely using a vp_token."
+      "title": "How does LucidLedger Wallet verify and authorize the verifier during online sharing?",
+      "description1": "Verifier credentials are checked from an internal list. If authorized, LucidLedger Wallet with web interface sends the VC back to the verifier securely using a vp_token."
     },
     "item15": {
-      "title": "What is OpenID4VP, and how is it used in Inji Wallet?",
-      "description1": "OpenID4VP (OpenID for Verifiable Presentations) standard allows secure sharing of VCs. Inji Wallet generates a QR code for VC storage, enabling verifiers like Inji Verify to securely request and receive VCs."
+      "title": "What is OpenID4VP, and how is it used in LucidLedger Wallet?",
+      "description1": "OpenID4VP (OpenID for Verifiable Presentations) standard allows secure sharing of VCs. LucidLedger Wallet generates a QR code for VC storage, enabling verifiers like LucidLedger Verify to securely request and receive VCs."
     },
     "item16": {
-      "title": "How do I know my VC was securely shared using Inji Wallet??",
-      "description1": "After the verifier scans the QR code and Inji Wallet authorizes it, the VC is securely provided to the verifier, who then validates and confirms it."
+      "title": "How do I know my VC was securely shared using LucidLedger Wallet??",
+      "description1": "After the verifier scans the QR code and LucidLedger Wallet authorizes it, the VC is securely provided to the verifier, who then validates and confirms it."
     },
     "item17": {
       "title": "What happens if the QR code is scanned on a different device than where the VC was generated?",
-      "description1": "Supports cross-device sharing. The verifier can scan from any copy of the VC PDF, and Inji Wallet verifies and shares the VC securely."
+      "description1": "Supports cross-device sharing. The verifier can scan from any copy of the VC PDF, and LucidLedger Wallet verifies and shares the VC securely."
     },
     "item18": {
-      "title": "Can Inji Wallet support different QR code formats?",
+      "title": "Can LucidLedger Wallet support different QR code formats?",
       "description1": "Yes. Config-based generation allows QR codes to either contain: ",
       "description2": "1. URL to VC storage for easy sharing, or ",
       "description3": "2. Full VC data in JSON (denser format)."
     },
     "item19": {
-      "title": "How does Inji Wallet handle credential verification after sharing?",
-      "description1": "After sharing, Inji Verify checks VC authenticity. If valid, the verifier confirms the credential's verification status."
+      "title": "How does LucidLedger Wallet handle credential verification after sharing?",
+      "description1": "After sharing, LucidLedger Verify checks VC authenticity. If valid, the verifier confirms the credential's verification status."
     },
     "item20": {
       "title": "What kind of credential issuers are supported?",
-      "description1": "Any issuer that follows the OpenID4VCI protocol can be trusted in Inji Wallet. These issuers provide data required to issue and download VCs."
+      "description1": "Any issuer that follows the OpenID4VCI protocol can be trusted in LucidLedger Wallet. These issuers provide data required to issue and download VCs."
     },
     "item21": {
       "title": "Where can I find more detailed information about the features introduced in this release?",
       "description1": "Refer to the <a href=\"https://docs.mosip.io/inji/inji-web/overview\" target=\"_blank\">Inji Wallet documentation</a> for detailed steps, system overviews, and descriptions of new features."
     },
     "item22": {
-      "title": "How do I get started with the online sharing feature in Inji Wallet?",
-      "description1": "Access VCs via Inji Wallet’s Web Interface, download, and use the QR code to share credentials in person or online with verifiers. Details in the <a href=\"https://docs.mosip.io/inji/inji-web/functional-overview/end-user-guide\" target=\"_blank\"> user guide </a> ."
+      "title": "How do I get started with the online sharing feature in LucidLedger Wallet?",
+      "description1": "Access VCs via LucidLedger Wallet’s Web Interface, download, and use the QR code to share credentials in person or online with verifiers. Details in the <a href=\"https://docs.mosip.io/inji/inji-web/functional-overview/end-user-guide\" target=\"_blank\"> user guide </a> ."
     },
     "item23": {
-      "title": "How can I toggle between embedded VC and Online Sharing in Inji Wallet?",
+      "title": "How can I toggle between embedded VC and Online Sharing in LucidLedger Wallet?",
       "description1": "Configure qr_code_type in Mimoto issuer's settings: ",
       "description2": "1. EmbeddedVC: Embeds the full VC in JSON format (denser QR code) for offline use.",
       "description3": "2. OnlineSharing: Generates a QR code with a URL to the online VC storage, making it easier to scan and share online."
